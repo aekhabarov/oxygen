@@ -694,3 +694,63 @@
 .control-up {
   cursor: pointer;
 }
+
+@media screen and (max-width: 479px) {
+  .menu {
+    display: none;
+  }
+
+  .mob-menu {
+    display: block;
+  }
+
+  .header_content-title {
+    font-size: 5.5rem;
+  }
+
+  .container {
+    width: 99%;
+    padding: 0 20px;
+  }
+
+  .container_about,
+  .container_expertise,
+  .expertise__content,
+  .expertise__modules,
+  .magic,
+  .magic__content {
+    flex-direction: column;
+  }
+
+  .expertise__module {
+    margin-top: 40px;
+  }
+
+  .title h3 {
+    font-size: 1.5rem;
+  }
+
+  .about_text,
+  .expertise__content-text,
+  .expertise__content,
+  .expertise__modules {
+    margin: 40px 0;
+  }
+
+  .expertise__content,
+  .expertise__content-text {
+    margin-bottom: 0px;
+  }
+
+  .expertise__modules {
+    margin-top: 0;
+  }
+
+  .magic__img {
+    width: 100%;
+  }
+
+  .magic__content {
+    padding: 0;
+  }
+}
