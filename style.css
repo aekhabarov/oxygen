@@ -75,7 +75,7 @@
 .header__content {
   width: 100%;
   height: calc(100% - 94px);
-  background: url(/img/Header-bg.jpg);
+  background: url("./img/Header-bg.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -337,7 +337,7 @@
 .portfolio__items-column-2 div:first-child {
   height: 288px;
   background-color: #1d1d1d;
-  background-image: url(/img/2.png);
+  background-image: url("./img/2.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -414,7 +414,7 @@
 .presentation__video-content {
   width: 100%;
   height: 324px;
-  background-image: url(/img/bg.png);
+  background-image: url("./img/bg.png");
   display: flex;
   justify-content: center;
   align-items: center;
