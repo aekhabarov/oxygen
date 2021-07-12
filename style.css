@@ -733,8 +733,13 @@
   .about_text,
   .expertise__content-text,
   .expertise__content,
-  .expertise__modules {
+  .expertise__modules,
+  .magic__content-text {
     margin: 40px 0;
+  }
+
+  .magic__content {
+    padding: 0 20px;
   }
 
   .expertise__content,
